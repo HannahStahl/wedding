@@ -7,21 +7,25 @@ import RSVP from './components/RSVP';
 import Registry from './components/Registry';
 import NotFound from './components/NotFound';
 import Layout from './components/Layout';
+import Leaves from './components/Leaves';
 
 const App = () => (
-  <div className="container">
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route index element={<Home />} />
-          <Route path="logistics" element={<Logistics />} />
-          <Route path="rsvp" element={<RSVP />} />
-          <Route path="registry" element={<Registry />} />
-          <Route path="*" element={<NotFound />} />
-        </Route>
-      </Routes>
-    </BrowserRouter>
-  </div>
+  <>
+    <Leaves />
+    <div className="container">
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Layout />}>
+            <Route index element={<Home />} />
+            <Route path="logistics" element={<Logistics />} />
+            <Route path="rsvp" element={<RSVP />} />
+            <Route path="registry" element={<Registry />} />
+            <Route path="*" element={<NotFound />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
+    </div>
+  </>
 );
 
 export default App;
