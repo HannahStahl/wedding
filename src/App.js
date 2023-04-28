@@ -1,7 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './index.css';
+import './App.css';
 import Home from './components/Home';
 import Logistics from './components/Logistics';
 import RSVP from './components/RSVP';
@@ -10,17 +9,19 @@ import NotFound from './components/NotFound';
 import Layout from './components/Layout';
 
 const App = () => (
-  <BrowserRouter>
-    <Routes>
-      <Route path="/" element={<Layout />}>
-        <Route index element={<Home />} />
-        <Route path="logistics" element={<Logistics />} />
-        <Route path="rsvp" element={<RSVP />} />
-        <Route path="registry" element={<Registry />} />
-        <Route path="*" element={<NotFound />} />
-      </Route>
-    </Routes>
-  </BrowserRouter>
+  <div className="container">
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="logistics" element={<Logistics />} />
+          <Route path="rsvp" element={<RSVP />} />
+          <Route path="registry" element={<Registry />} />
+          <Route path="*" element={<NotFound />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
+  </div>
 );
 
 export default App;
