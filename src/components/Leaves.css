@@ -1,7 +1,10 @@
 #leaves {
   position: absolute;
   top: -50px;
-  width: 100%;
+  width: 100vw;
+  @media only screen and (max-width: 600px) {
+    display: none;
+  }
 }
 
 #leaves i {
@@ -21,10 +24,6 @@
 #leaves i:nth-of-type(2n) {
   animation: falling2 5s 0s infinite;
   -webkit-animation: falling2 5s 0s infinite;
-}
-#leaves i:nth-of-type(3n) {
-  animation: falling3 5s 0s infinite;
-  -webkit-animation: falling3 5s 0s infinite;
 }
 
 #leaves i:before {
@@ -169,23 +168,23 @@
 }
 
 #leaves i:nth-of-type(n) {
-  background: linear-gradient(to bottom right, #309900, #005600);
+  background: linear-gradient(to bottom right, #236d00, #004800);
 }
 #leaves i:nth-of-type(2n+2) {
-  background: linear-gradient(to bottom right, #5e9900, #2b5600);
+  background: linear-gradient(to bottom right, #426a01, #224300);
 }
 #leaves i:nth-of-type(4n+1) {
-  background: linear-gradient(to bottom right, #990, #564500);
+  background: linear-gradient(to bottom right, rgb(102, 122, 0), #464800);
 }
 
 #leaves i:nth-of-type(n) {
-  opacity: .9;
+  opacity: 1;
 }
 #leaves i:nth-of-type(3n+1) {
-  opacity: .7;
+  opacity: .8;
 }
 #leaves i:nth-of-type(3n+2) {
-  opacity: .5;
+  opacity: .6;
 }
 
 #leaves i:nth-of-type(n) {
@@ -200,13 +199,13 @@
 @keyframes falling {
   0% {
     -webkit-transform:
-      translate3d(150px,0,0)
+      translate3d(calc(50vw - 1rem),0,0)
       rotate(0deg);
   }
     
   100% {
     -webkit-transform:
-      translate3d(50px,700px,0)
+      translate3d(calc(50vw - 100px),700px,0)
       rotate(90deg);
     opacity: 0;
   }
@@ -215,29 +214,14 @@
 @keyframes falling2 {
   0% {
     -webkit-transform:
-      translate3d(-100px,0,0)
+      translate3d(calc(-50vw + 1rem),0,0)
       rotate(90deg);
   }
 
   100% {
     -webkit-transform:
-      translate3d(100px,680px,0)
+      translate3d(calc(-50vw + 120px),680px,0)
       rotate(0deg);
-    opacity: 0;
-  }
-}
-
-@keyframes falling3 {
-  0% {
-    -webkit-transform:
-      translate3d(0,0,0)
-      rotate(-20deg);
-  }
-    
-  100% {
-    -webkit-transform:
-      translate3d(-130px,640px,0)
-      rotate(-70deg);
     opacity: 0;
   }
 }
