@@ -8,10 +8,12 @@ import Registry from './components/Registry';
 import NotFound from './components/NotFound';
 import Layout from './components/Layout';
 import Leaves from './components/Leaves';
+import Lines from './components/Lines';
 
 const App = () => (
   <>
     <Leaves />
+    <Lines />
     <div className="container">
       <BrowserRouter>
         <Routes>
