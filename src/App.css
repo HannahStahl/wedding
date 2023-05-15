@@ -1,6 +1,6 @@
 * {
   font-family: 'Ysabeau', sans-serif;
-  font-size: 28px;
+  font-size: 22px;
   font-weight: 200;
   text-align: center;
   letter-spacing: 1px;
@@ -12,6 +12,16 @@
   @media only screen and (max-width: 600px) {
     margin: 0.5rem;
   }
+}
+
+h1 {
+  font-size: 28px;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  margin-top: 0;
 }
 
 a {
@@ -32,13 +42,46 @@ nav {
 
 nav a {
   margin: 0 1rem;
+  font-size: 28px;
 }
 
 .home-img {
+  margin-bottom: 1rem;
   width: 75%;
   max-width: 750px;
   @media only screen and (max-width: 600px) {
     width: 100%;
     max-width: unset;
+  }
+}
+
+.our-story {
+  width: 75%;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.story-row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.story-row div {
+  width: 48%;
+  @media only screen and (max-width: 1100px) {
+    width: 100%;
+  }
+}
+
+.story-img {
+  height: 300px;
+  margin: 0.4rem;
+}
+
+.left-align * {
+  text-align: left;
+  @media only screen and (max-width: 1100px) {
+    text-align: unset;
   }
 }
