@@ -87,6 +87,10 @@ nav a {
   margin: auto;
 }
 
+.arrow-1 {
+  margin: 1rem auto;
+}
+
 .story-row {
   display: flex;
   justify-content: space-between;
