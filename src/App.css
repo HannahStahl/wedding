@@ -5,6 +5,13 @@ body {
   text-align: center;
   letter-spacing: 1px;
   background-color: #fff8fe;
+  animation: fadein 2s;
+}
+
+@keyframes fadein {
+  0% { opacity: 0; }
+  33% { opacity: 0; }
+  100% { opacity: 1; }
 }
 
 .container {
