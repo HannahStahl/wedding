@@ -5,7 +5,11 @@ body {
   text-align: center;
   letter-spacing: 1px;
   background-color: #fff8fe;
+  color: #182318;
   animation: fadein 2s;
+  @media only screen and (max-width: 600px) {
+    font-size: 16px;
+  }
 }
 
 @keyframes fadein {
@@ -26,6 +30,9 @@ h1 {
   font-weight: normal;
   margin-top: 0;
   margin-bottom: 0.5rem;
+  @media only screen and (max-width: 600px) {
+    font-size: 22px;
+  }
 }
 
 p {
@@ -42,7 +49,7 @@ a:hover {
 }
 
 nav {
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
   @media only screen and (max-width: 600px) {
     display: none;
   }
@@ -51,6 +58,17 @@ nav {
 nav a {
   margin: 0 1rem;
   font-size: 28px;
+  @media only screen and (max-width: 600px) {
+    font-size: 22px;
+  }
+}
+
+.header {
+  font-family: 'La Belle Aurore', cursive;
+  font-size: 48px;
+  @media only screen and (max-width: 600px) {
+    font-size: 32px;
+  }
 }
 
 .home-img {

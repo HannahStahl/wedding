@@ -4,6 +4,7 @@ import NavBar from './NavBar';
 
 const Layout = () => (
   <>
+    <h1 className="header">Chuck & Hannah</h1>
     <NavBar />
     <Outlet />
   </>
