@@ -1,13 +1,22 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
-const NavBar = () => (
-  <nav>
-    <Link to="/">Home</Link>
-    <Link to="/logistics">Logistics</Link>
-    <Link to="/rsvp">RSVP</Link>
-    <Link to="/registry">Registry</Link>
-  </nav>
-);
+const NavBar = () => {
+  const pages = [
+    { page: "/", label: "Home" },
+    { page: "/logistics", label: "Logistics" },
+    { page: "/rsvp", label: "RSVP" },
+    { page: "/registry", label: "Registry" },
+  ];
+  return (
+    <nav>
+      {pages.map(({ page, label }) => (
+        <NavLink to={page} className={({ isActive }) => isActive ? "active" : undefined}>
+          {label}
+        </NavLink>
+      ))}
+    </nav>
+  );
+};
 
 export default NavBar;

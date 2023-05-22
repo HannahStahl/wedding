@@ -63,6 +63,10 @@ nav a {
   }
 }
 
+nav a.active {
+  border-bottom: solid 2px #d3c5a0;
+}
+
 .header {
   font-family: 'La Belle Aurore', cursive;
   font-size: 48px;
