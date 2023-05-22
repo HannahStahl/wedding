@@ -2,7 +2,7 @@ import React from 'react';
 import { Fade } from 'react-awesome-reveal';
 
 const Home = () => (
-  <>
+  <div className="page">
     <Fade duration={2000}>
       <img src="/images/engagement.jpg" alt="Chuck and Hannah" className="home-img" />
     </Fade>
@@ -24,7 +24,7 @@ const Home = () => (
         </div>
       </Fade>
     </div>
-  </>
+  </div>
 );
 
 export default Home;
