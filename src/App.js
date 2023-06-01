@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Home from './components/Home';
 import Logistics from './components/Logistics';
+import Story from './components/Story';
 import RSVP from './components/RSVP';
 import Registry from './components/Registry';
 import NotFound from './components/NotFound';
@@ -20,6 +21,7 @@ const App = () => (
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
             <Route path="logistics" element={<Logistics />} />
+            <Route path="story" element={<Story />} />
             <Route path="rsvp" element={<RSVP />} />
             <Route path="registry" element={<Registry />} />
             <Route path="*" element={<NotFound />} />

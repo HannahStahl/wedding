@@ -19,13 +19,20 @@ body {
 }
 
 .page {
-  animation: fadein 1s;
+  animation: fadeIn 1s;
+  margin-bottom: 3rem;
 }
 
-@keyframes fadein {
+@keyframes fadeIn {
   0% { opacity: 0; }
   33% { opacity: 0; }
   100% { opacity: 1; }
+}
+
+@keyframes slide {
+  0% { transform: translateX(0); }
+  50% { transform: translateX(5px); }
+  100% { transform: translateX(0px); }
 }
 
 h1 {
@@ -60,13 +67,19 @@ nav {
 
 nav a {
   margin: 0 1rem;
-  font-size: 28px;
+  font-size: 24px;
   @media only screen and (max-width: 600px) {
     font-size: 22px;
   }
 }
 
-nav a.active {
+.home-header-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+nav a.active, .home-header {
   border-bottom: solid 2px #d3c5a0;
 }
 
@@ -79,12 +92,25 @@ nav a.active {
 }
 
 .home-img {
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   width: 75%;
   max-width: 750px;
   @media only screen and (max-width: 600px) {
     width: 100%;
     max-width: unset;
+  }
+}
+
+.more-details-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #8c6b10;
+
+  > svg {
+    margin-left: 0.5rem;
+    margin-top: 0.25rem;
+    animation: slide 2s ease-in-out infinite;
   }
 }
 
