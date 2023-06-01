@@ -1,6 +1,6 @@
 body {
   font-family: 'Ysabeau', sans-serif;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 200;
   text-align: center;
   letter-spacing: 1px;
@@ -76,11 +76,15 @@ nav a {
 .home-header-wrapper {
   display: flex;
   justify-content: center;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 nav a.active, .home-header {
   border-bottom: solid 2px #d3c5a0;
+}
+
+.home-subheader {
+  margin-bottom: 1rem;
 }
 
 .header {
@@ -114,27 +118,41 @@ nav a.active, .home-header {
   }
 }
 
-.our-story {
+.alternating-content {
   width: 75%;
   max-width: 1000px;
   margin: auto;
 }
 
-.arrow-1 {
-  margin: 1rem auto;
-}
-
-.story-row {
+.alternating-row {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   flex-wrap: wrap;
 }
 
-.story-row div {
+.alternating-row div {
   width: 48%;
   @media only screen and (max-width: 1100px) {
     width: 100%;
   }
+}
+
+.logistics-header {
+  margin-bottom: 1.5rem;
+}
+
+.logistics-subheader {
+  font-weight: 400;
+}
+
+.logistics-img {
+  max-width: 100%;
+  max-height: 400px;
+}
+
+.arrow-1 {
+  margin: 1rem auto;
 }
 
 .story-img {

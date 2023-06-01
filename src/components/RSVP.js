@@ -1,7 +1,7 @@
 import React from 'react';
 
 const RSVP = () => (
-  <div className="page">This is the RSVP page.</div>
+  <div className="page">RSVP coming soon</div>
 );
 
 export default RSVP;

@@ -13,7 +13,7 @@ const Home = () => (
         <div className="home-header-wrapper">
           <h1 className="home-header">We can't wait to celebrate with you!</h1>
         </div>
-        <h1>October 7, 2023 at 5:00pm</h1>
+        <h1 className="home-subheader">October 7, 2023 at 5:00pm</h1>
         <p>
           The Woodlands at Algonkian<br />
           47001 Fairway Dr, Sterling, VA 20165<br />

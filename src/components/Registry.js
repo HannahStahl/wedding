@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Registry = () => (
-  <div className="page">This is the Registry page.</div>
+  <div className="page">Registry coming soon</div>
 );
 
 export default Registry;
