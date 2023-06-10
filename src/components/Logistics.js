@@ -18,8 +18,8 @@ const Logistics = () => (
             <p>
               <b>Location:</b><br />
               <span className="logistics-subheader">The Woodlands at Algonkian</span><br />
-              47001 Fairway Dr, Sterling, VA 20165<br />
-              Sterling, VA
+              47001 Fairway Dr<br />
+              Sterling, VA 20165
             </p>
             <p>
               <b>Attire:</b><br />

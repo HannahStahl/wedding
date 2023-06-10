@@ -16,8 +16,8 @@ const Home = () => (
         <h1 className="home-subheader">October 7, 2023 at 5:00pm</h1>
         <p>
           The Woodlands at Algonkian<br />
-          47001 Fairway Dr, Sterling, VA 20165<br />
-          Sterling, VA
+          47001 Fairway Dr<br />
+          Sterling, VA 20165
         </p>
         <Link to="/logistics">
           <div className="more-details-link">
