@@ -50,12 +50,11 @@ p {
 }
 
 a {
-  color: rgb(33, 37, 41);
-  text-decoration: none;
+  color: #8c6b10;
 }
 
 a:hover {
-  color: rgb(33, 37, 41);
+  color: #8c6b10;
 }
 
 nav {
@@ -66,11 +65,17 @@ nav {
 }
 
 nav a {
+  color: rgb(33, 37, 41);
+  text-decoration: none;
   margin: 0 1rem;
   font-size: 24px;
   @media only screen and (max-width: 600px) {
     font-size: 22px;
   }
+}
+
+nav a:hover {
+  color: rgb(33, 37, 41);
 }
 
 .home-header-wrapper {
@@ -109,7 +114,6 @@ nav a.active, .home-header {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #8c6b10;
 
   > svg {
     margin-left: 0.5rem;
@@ -127,7 +131,15 @@ nav a.active, .home-header {
 .alternating-row {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  flex-wrap: wrap-reverse;
+  margin: 4rem auto;
+  @media only screen and (max-width: 1100px) {
+    max-width: 520px;
+    margin: 2rem auto;
+  }
+}
+
+.alternating-row.even-row {
   flex-wrap: wrap;
 }
 
@@ -149,6 +161,7 @@ nav a.active, .home-header {
 .logistics-img {
   max-width: 100%;
   max-height: 400px;
+  margin-bottom: 1rem;
 }
 
 .arrow-1 {
@@ -163,6 +176,13 @@ nav a.active, .home-header {
 
 .left-align {
   text-align: left;
+  @media only screen and (max-width: 1100px) {
+    text-align: unset;
+  }
+}
+
+.right-align {
+  text-align: right;
   @media only screen and (max-width: 1100px) {
     text-align: unset;
   }
