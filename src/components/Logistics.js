@@ -39,7 +39,7 @@ const Logistics = () => (
             <h1 className="logistics-header">Goodbye Brunch</h1>
             <p>
               <b>Date and Time:</b><br />
-              <span className="logistics-subheader">October 8, 2023, 10:00am - 2:00pm</span><br />
+              <span className="logistics-subheader">October 8, 2023, 9:30am - 12:00pm</span><br />
             </p>
             <p>
               <b>Location:</b><br />
