@@ -58,17 +58,16 @@ const Story = () => (
         <div className="alternating-row odd-row">
           <div className="right-align">
             <h1>It <b>formally</b> begins in Washington, D.C.</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>After defending his thesis and carrying out an elaborate scavneger hunt proposal, Chuck accepted a job in the nation's capital, and the couple packed up and moved across the country to what will hopefully be their forever home. The two are enjoying being closer to family, living in a bustling walkable neighborhood, and learning how to make new friends as adults. They can't wait to celebrate their wedding with everyone near and dear to them, in beautiful northern Virginia. See y'all in October!</p>
           </div>
           <div>
             <Masonry>
-              <img src="/images/snowy-ithaca.jpg" alt="Snowy Ithaca" className="story-img" />
-              <img src="/images/cornell-hockey.jpg" alt="Cornell Hockey" className="story-img" />
-              <img src="/images/clocktower.jpg" alt="Clocktower" className="story-img" />
-              <img src="/images/club-tennis.jpeg" alt="Cornell Club Tennis" className="story-img" />
-              <img src="/images/cornell-hockey-2.jpg" alt="Cornell Hockey" className="story-img" />
-              <img src="/images/cornell-party.jpg" alt="Cornell Party" className="story-img" />
-              <img src="/images/teaching-tennis.jpg" alt="Ithaca Tennis Lesson" className="story-img" />
+              <img src="/images/suitcases.jpg" alt="Suitcases" className="story-img" />
+              <img src="/images/trail-of-lights.jpeg" alt="Trail of Lights" className="story-img" />
+              <img src="/images/chucks-parents.jpg" alt="Burton Parents" className="story-img" />
+              <img src="/images/monument.jpg" alt="Washington Monument" className="story-img" />
+              <img src="/images/cherry-blossoms.jpg" alt="Cherry Blossoms" className="story-img" />
+              <img src="/images/bike-party.jpg" alt="DC Bike Party" className="story-img" />
             </Masonry>
           </div>
         </div>
