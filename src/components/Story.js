@@ -63,11 +63,11 @@ const Story = () => (
           <div>
             <Masonry>
               <img src="/images/suitcases.jpg" alt="Suitcases" className="story-img" />
-              <img src="/images/trail-of-lights.jpeg" alt="Trail of Lights" className="story-img" />
-              <img src="/images/chucks-parents.jpg" alt="Burton Parents" className="story-img" />
-              <img src="/images/monument.jpg" alt="Washington Monument" className="story-img" />
-              <img src="/images/cherry-blossoms.jpg" alt="Cherry Blossoms" className="story-img" />
               <img src="/images/bike-party.jpg" alt="DC Bike Party" className="story-img" />
+              <img src="/images/chucks-parents.jpg" alt="Burton Parents" className="story-img" />
+              <img src="/images/cherry-blossoms.jpg" alt="Cherry Blossoms" className="story-img" />
+              <img src="/images/trail-of-lights-2.jpg" alt="Trail of Lights" className="story-img" />
+              <img src="/images/monument.jpg" alt="Washington Monument" className="story-img" />
             </Masonry>
           </div>
         </div>
