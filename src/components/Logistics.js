@@ -7,15 +7,17 @@ const Logistics = () => (
       <Fade duration={2000}>
         <div className="alternating-row">
           <div className="left-align">
-            <h1 className="logistics-header">Wedding Day Details</h1>
+            <h1 className="logistics-header">Ceremony and Reception</h1>
             <p>
               <b>Date and Time:</b><br />
-              <span className="logistics-subheader">October 7, 2023 at 5:00pm</span><br />
+              <span className="logistics-subheader">October 7, 2023, 5:00pm - 11:00pm</span><br />
               Please arrive early and enjoy the beautiful park!
             </p>
             <p>
               <b>Location:</b><br />
-              <span className="logistics-subheader">The Woodlands at Algonkian</span><br />
+              <span className="logistics-subheader">
+                <a href="https://goo.gl/maps/Ti1b3rurmahmEWkw7" target="_blank" rel="noopener noreferrer">The Woodlands at Algonkian</a>
+              </span><br />
               47001 Fairway Dr, Sterling, VA 20165
             </p>
             <p>
@@ -25,6 +27,49 @@ const Logistics = () => (
           </div>
           <div>
             <img src="/images/woodlands.jpeg" alt="The Woodlands at Algonkian" className="logistics-img" />
+          </div>
+        </div>
+      </Fade>
+      <Fade duration={2000}>
+        <div className="alternating-row even-row">
+          <div>
+            <img src="/images/pavilion.jpeg" alt="Picnic Shelter" className="logistics-img" />
+          </div>
+          <div className="right-align">
+            <h1 className="logistics-header">Goodbye Brunch</h1>
+            <p>
+              <b>Date and Time:</b><br />
+              <span className="logistics-subheader">October 8, 2023, 10:00am - 2:00pm</span><br />
+            </p>
+            <p>
+              <b>Location:</b><br />
+              <span className="logistics-subheader">
+                <a href="https://goo.gl/maps/vVnfE1Z2h1Yz52kW6" target="_blank" rel="noopener noreferrer">Algonkian Picnic Shelter #1</a>
+              </span><br />
+              47001 Fairway Dr, Sterling, VA 20165
+            </p>
+            <p>
+              <b>Attire:</b><br />
+              <span className="logistics-subheader">Casual</span><br />
+            </p>
+          </div>
+        </div>
+      </Fade>
+      <Fade duration={2000}>
+        <div className="alternating-row odd-row">
+          <div className="left-align">
+            <h1 className="logistics-header">Nearby Airports</h1>
+            <p>
+              <b>Dulles International Airport (IAD):</b><br />
+              <span className="logistics-subheader">~20 minutes from wedding venue</span>
+            </p>
+            <p>
+              <b>Washington National Airport (DCA):</b><br />
+              <span className="logistics-subheader">~45 minutes from wedding venue</span>
+            </p>
+          </div>
+          <div>
+            <img src="/images/dulles.jpeg" alt="Dulles Airport" className="logistics-img" />
           </div>
         </div>
       </Fade>
