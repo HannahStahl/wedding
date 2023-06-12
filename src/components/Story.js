@@ -3,7 +3,7 @@ import { Fade } from 'react-awesome-reveal';
 import Masonry from 'react-responsive-masonry';
 
 const Story = () => (
-  <div className="page">
+  <div className="story page">
     <div className="alternating-content">
       <Fade duration={2000}>
         <img src="/images/arrow-1.png" alt="Arrow 1" />
