@@ -1,5 +1,5 @@
-import React from 'react';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import React, { useEffect } from 'react';
+import { BrowserRouter, Route, Routes, useLocation } from 'react-router-dom';
 import './App.css';
 import Home from './components/Home';
 import Logistics from './components/Logistics';
@@ -11,22 +11,34 @@ import Layout from './components/Layout';
 import Leaves from './components/Leaves';
 import Lines from './components/Lines';
 
+const Pages = () => {
+  const location = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location]);
+
+  return (
+    <Routes>
+      <Route path="/" element={<Layout />}>
+        <Route index element={<Home />} />
+        <Route path="logistics" element={<Logistics />} />
+        <Route path="story" element={<Story />} />
+        <Route path="rsvp" element={<RSVP />} />
+        <Route path="registry" element={<Registry />} />
+        <Route path="*" element={<NotFound />} />
+      </Route>
+    </Routes>
+  )
+}
+
 const App = () => (
   <>
     <Leaves />
     <Lines />
     <div className="app-container">
       <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Layout />}>
-            <Route index element={<Home />} />
-            <Route path="logistics" element={<Logistics />} />
-            <Route path="story" element={<Story />} />
-            <Route path="rsvp" element={<RSVP />} />
-            <Route path="registry" element={<Registry />} />
-            <Route path="*" element={<NotFound />} />
-          </Route>
-        </Routes>
+        <Pages />
       </BrowserRouter>
     </div>
   </>
