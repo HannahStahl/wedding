@@ -11,7 +11,7 @@ body {
   }
 }
 
-.container {
+.app-container {
   margin: 1rem;
   @media only screen and (max-width: 600px) {
     margin: 0.5rem;
@@ -57,13 +57,6 @@ a:hover {
   color: #8c6b10;
 }
 
-nav {
-  margin-bottom: 3rem;
-  @media only screen and (max-width: 600px) {
-    display: none;
-  }
-}
-
 nav a {
   color: rgb(33, 37, 41);
   text-decoration: none;
@@ -78,6 +71,36 @@ nav a:hover {
   color: rgb(33, 37, 41);
 }
 
+.navbar-nav {
+  margin: auto;
+}
+
+.nav-link {
+  padding: 0 !important;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.navbar-collapse {
+  margin-top: 1rem;
+}
+
+.navbar-expand-lg {
+  margin-bottom: 2rem;
+  @media only screen and (max-width: 991px) {
+    margin-top: -4.5rem;
+  }
+  @media only screen and (max-width: 600px) {
+    margin-top: -3.75rem;
+  }
+}
+
 .home-header-wrapper {
   display: flex;
   justify-content: center;
@@ -86,6 +109,9 @@ nav a:hover {
 
 nav a.active, .home-header {
   border-bottom: solid 2px #d3c5a0;
+  @media only screen and (max-width: 991px) {
+    border-bottom: unset;
+  }
 }
 
 .home-subheader {
@@ -95,9 +121,15 @@ nav a.active, .home-header {
 .header {
   font-family: 'La Belle Aurore', cursive;
   font-size: 48px;
+  margin-top: 2rem;
   @media only screen and (max-width: 600px) {
     font-size: 32px;
   }
+}
+
+.header a {
+  color: #182318;
+  text-decoration: none;
 }
 
 .home-img {
@@ -105,7 +137,7 @@ nav a.active, .home-header {
   width: 75%;
   max-width: 750px;
   @media only screen and (max-width: 600px) {
-    width: 100%;
+    width: 95%;
     max-width: unset;
   }
 }
@@ -119,6 +151,12 @@ nav a.active, .home-header {
     margin-left: 0.5rem;
     margin-top: 0.25rem;
     animation: slide 2s ease-in-out infinite;
+  }
+}
+
+.arrow {
+  @media only screen and (max-width: 600px) {
+    display: none;
   }
 }
 
@@ -146,6 +184,9 @@ nav a.active, .home-header {
 .story .alternating-row {
   margin: 2rem auto;
   flex-wrap: wrap;
+  @media only screen and (max-width: 600px) {
+    margin-bottom: 3rem;
+  }
 }
 
 .story .alternating-row.even-row {

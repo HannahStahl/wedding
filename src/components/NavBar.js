@@ -1,4 +1,6 @@
 import React from 'react';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
 import { NavLink } from 'react-router-dom';
 
 const NavBar = () => {
@@ -10,13 +12,18 @@ const NavBar = () => {
     { page: "/registry", label: "Registry" },
   ];
   return (
-    <nav>
-      {pages.map(({ page, label }) => (
-        <NavLink key={page} to={page} className={({ isActive }) => isActive ? "active" : undefined}>
-          {label}
-        </NavLink>
-      ))}
-    </nav>
+    <Navbar expand="lg">
+      <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+      <Navbar.Collapse id="responsive-navbar-nav">
+        <Nav className="me-auto">
+          {pages.map(({ page, label }) => (
+            <Nav.Link key={page} as={NavLink} to={page} className={({ isActive }) => isActive ? "active" : undefined}>
+              {label}
+            </Nav.Link>
+          ))}
+        </Nav>
+      </Navbar.Collapse>
+    </Navbar>
   );
 };
 

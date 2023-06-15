@@ -1,10 +1,12 @@
 import React from 'react';
-import { Outlet } from 'react-router-dom';
+import { NavLink, Outlet } from 'react-router-dom';
 import NavBar from './NavBar';
 
 const Layout = () => (
   <>
-    <h1 className="header">Chuck & Hannah</h1>
+    <h1 className="header">
+      <NavLink to="/">Chuck & Hannah</NavLink>
+    </h1>
     <NavBar />
     <Outlet />
   </>

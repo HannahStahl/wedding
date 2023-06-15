@@ -5,9 +5,11 @@ import Masonry from 'react-responsive-masonry';
 const Story = () => (
   <div className="story page">
     <div className="alternating-content">
-      <Fade duration={2000}>
-        <img src="/images/arrow-1.png" alt="Arrow 1" />
-      </Fade>
+      <span className="arrow">
+        <Fade duration={2000}>
+          <img src="/images/arrow-1.png" alt="Arrow 1" />
+        </Fade>
+      </span>
       <Fade duration={2000}>
         <div className="alternating-row odd-row">
           <div className="left-align">
@@ -28,9 +30,11 @@ const Story = () => (
           </div>
         </div>
       </Fade>
-      <Fade duration={2000}>
-        <img src="/images/arrow-2.png" alt="Arrow 2" />
-      </Fade>
+      <span className="arrow">
+        <Fade duration={2000}>
+          <img src="/images/arrow-2.png" alt="Arrow 2" />
+        </Fade>
+      </span>
       <Fade duration={2000}>
         <div className="alternating-row even-row">
           <div>
@@ -51,9 +55,11 @@ const Story = () => (
           </div>
         </div>
       </Fade>
-      <Fade duration={2000}>
-        <img src="/images/arrow-3.png" alt="Arrow 3" />
-      </Fade>
+      <span className="arrow">
+        <Fade duration={2000}>
+          <img src="/images/arrow-3.png" alt="Arrow 3" />
+        </Fade>
+      </span>
       <Fade duration={2000}>
         <div className="alternating-row odd-row">
           <div className="right-align">

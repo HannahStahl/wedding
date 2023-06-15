@@ -15,7 +15,7 @@ const App = () => (
   <>
     <Leaves />
     <Lines />
-    <div className="container">
+    <div className="app-container">
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Layout />}>
