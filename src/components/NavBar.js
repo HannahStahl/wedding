@@ -12,12 +12,18 @@ const NavBar = () => {
     { page: "/registry", label: "Registry" },
   ];
   return (
-    <Navbar expand="lg">
+    <Navbar collapseOnSelect expand="lg">
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="me-auto">
           {pages.map(({ page, label }) => (
-            <Nav.Link key={page} as={NavLink} to={page} className={({ isActive }) => isActive ? "active" : undefined}>
+            <Nav.Link
+              key={page}
+              eventKey={page}
+              as={NavLink}
+              to={page}
+              className={({ isActive }) => isActive ? "active" : undefined}
+            >
               {label}
             </Nav.Link>
           ))}
