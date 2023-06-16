@@ -50,6 +50,15 @@ const Story = () => (
     <div className="alternating-content">
       {content.map(({ header, text, images }, i) => {
         const imagesOnRight = i % 2 === 0;
+        const imageCollage = (
+          <div>
+            <Masonry>
+              {images.map(({ filename, alt }) => (
+                <img key={filename} src={`/images/${filename}`} alt={alt} className="story-img" />
+              ))}
+            </Masonry>
+          </div>
+        );
         return (
           <div key={i}>
             <span className="arrow">
@@ -59,28 +68,12 @@ const Story = () => (
             </span>
             <Fade duration={2000}>
               <div className={`alternating-row ${imagesOnRight ? 'odd-row' : 'even-row'}`}>
-                {!imagesOnRight && (
-                  <div>
-                    <Masonry>
-                      {images.map(({ filename, alt }) => (
-                        <img key={filename} src={`/images/${filename}`} alt={alt} className="story-img" />
-                      ))}
-                    </Masonry>
-                  </div>
-                )}
+                {!imagesOnRight && imageCollage}
                 <div className={imagesOnRight ? 'left-align' : 'right-align'}>
                   <h1>{header}</h1>
                   <p>{text}</p>
                 </div>
-                {imagesOnRight && (
-                  <div>
-                    <Masonry>
-                      {images.map(({ filename, alt }) => (
-                        <img key={filename} src={`/images/${filename}`} alt={alt} className="story-img" />
-                      ))}
-                    </Masonry>
-                  </div>
-                )}
+                {imagesOnRight && imageCollage}
               </div>
             </Fade>
           </div>
