@@ -22,7 +22,6 @@ const NavBar = () => {
               eventKey={page}
               as={NavLink}
               to={page}
-              className={({ isActive }) => isActive ? "active" : undefined}
             >
               {label}
             </Nav.Link>
