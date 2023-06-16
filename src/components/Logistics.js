@@ -10,19 +10,17 @@ const Logistics = () => (
             <h1 className="logistics-header">Ceremony and Reception</h1>
             <p>
               <b>Date and Time:</b><br />
-              <span className="logistics-subheader">October 7, 2023, 5:00pm - 11:00pm</span><br />
-              Please arrive early and enjoy the beautiful park!
+              October 7, 2023, 5:00pm - 11:00pm<br />
+              <i>Please arrive early and enjoy the beautiful park!</i>
             </p>
             <p>
               <b>Location:</b><br />
-              <span className="logistics-subheader">
-                <a href="https://goo.gl/maps/Ti1b3rurmahmEWkw7" target="_blank" rel="noopener noreferrer">The Woodlands at Algonkian</a>
-              </span><br />
+              <a href="https://goo.gl/maps/Ti1b3rurmahmEWkw7" target="_blank" rel="noopener noreferrer">The Woodlands at Algonkian</a><br />
               47001 Fairway Dr, Sterling, VA 20165
             </p>
             <p>
               <b>Attire:</b><br />
-              <span className="logistics-subheader">Semi-formal</span><br />
+              Semi-formal
             </p>
           </div>
           <div>
@@ -39,18 +37,16 @@ const Logistics = () => (
             <h1 className="logistics-header">Goodbye Brunch</h1>
             <p>
               <b>Date and Time:</b><br />
-              <span className="logistics-subheader">October 8, 2023, 9:30am - 12:00pm</span><br />
+              October 8, 2023, 9:30am - 12:00pm<br />
             </p>
             <p>
               <b>Location:</b><br />
-              <span className="logistics-subheader">
-                <a href="https://goo.gl/maps/vVnfE1Z2h1Yz52kW6" target="_blank" rel="noopener noreferrer">Algonkian Picnic Shelter #1</a>
-              </span><br />
+              <a href="https://goo.gl/maps/vVnfE1Z2h1Yz52kW6" target="_blank" rel="noopener noreferrer">Algonkian Picnic Shelter #1</a><br />
               47001 Fairway Dr, Sterling, VA 20165
             </p>
             <p>
               <b>Attire:</b><br />
-              <span className="logistics-subheader">Casual</span><br />
+              Casual
             </p>
           </div>
         </div>
@@ -61,11 +57,11 @@ const Logistics = () => (
             <h1 className="logistics-header">Nearby Airports</h1>
             <p>
               <b>Dulles International Airport (IAD):</b><br />
-              <span className="logistics-subheader">~20 minutes from wedding venue</span>
+              ~20 minutes from wedding venue
             </p>
             <p>
               <b>Washington National Airport (DCA):</b><br />
-              <span className="logistics-subheader">~45 minutes from wedding venue</span>
+              ~45 minutes from wedding venue
             </p>
           </div>
           <div>
@@ -82,11 +78,11 @@ const Logistics = () => (
             <h1 className="logistics-header">Accommodations</h1>
             <p>
               <b>Hampton Inn Dulles/Cascades:</b><br />
-              <span className="logistics-subheader">Use <a href="http://l.h4.hilton.com/rts/go2.aspx?h=2620167&tp=i-16D9-Ak-a7L-DcqNmR-24-13qKQm-1c-l8f7Zf3UW8-bw91S&x=www.my-event.hilton.com/wasslhx-hcw-f281d9dc-f5eb-4baf-badc-1965309a4260/" target="_blank" rel="noopener noreferrer">this link</a> for discounted rate of $139-149/night</span>
+              Use <a href="http://l.h4.hilton.com/rts/go2.aspx?h=2620167&tp=i-16D9-Ak-a7L-DcqNmR-24-13qKQm-1c-l8f7Zf3UW8-bw91S&x=www.my-event.hilton.com/wasslhx-hcw-f281d9dc-f5eb-4baf-badc-1965309a4260/" target="_blank" rel="noopener noreferrer">this link</a> for discounted rate of $139-149/night
             </p>
             <p>
               <b>Hyatt Place Sterling/Dulles Airport-North:</b><br />
-              <span className="logistics-subheader">Use <a href="https://www.hyatt.com/en-US/group-booking/IADZN/G-BSWB" target="_blank" rel="noopener noreferrer">this link</a> for discounted rate of $139/night</span>
+              Use <a href="https://www.hyatt.com/en-US/group-booking/IADZN/G-BSWB" target="_blank" rel="noopener noreferrer">this link</a> for discounted rate of $139/night
             </p>
             <i>If you do not see rooms available at the expected rate, please <a href="mailto:hannahstahl14@gmail.com">let us know</a> so we can add more to the block.</i>
           </div>
