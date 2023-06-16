@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useState } from 'react';
+import Modal from 'react-bootstrap/Modal';
 import { Fade } from 'react-awesome-reveal';
 import Masonry from 'react-responsive-masonry';
 
@@ -45,15 +46,21 @@ const content = [
   }
 ];
 
-const ImageCollage = ({ images }) => (
-  <div>
-    <Masonry>
-      {images.map(({ filename, alt }) => (
-        <img key={filename} src={`/images/${filename}`} alt={alt} className="story-img" />
-      ))}
-    </Masonry>
-  </div>
-);
+const ImageCollage = ({ images }) => {
+  const [selectedIndex, setSelectedIndex] = useState(-1);
+  return (
+    <div>
+      <Masonry>
+        {images.map(({ filename, alt }, i) => (
+          <img key={filename} src={`/images/${filename}`} alt={alt} className="story-img thumbnail" onClick={() => setSelectedIndex(i)} />
+        ))}
+      </Masonry>
+      <Modal centered show={selectedIndex >= 0} onHide={() => setSelectedIndex(-1)}>
+        <img src={`/images/${images[selectedIndex]?.filename}`} alt={images[selectedIndex]?.alt} className="story-img" onClick={() => setSelectedIndex(-1)} />
+      </Modal>
+    </div>
+  );
+};
 
 const Story = () => (
   <div className="story page">

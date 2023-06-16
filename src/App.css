@@ -214,6 +214,18 @@ nav a.active, .home-header {
   margin: 0.4rem;
 }
 
+.story-img.thumbnail:hover {
+  cursor: zoom-in;
+}
+
+.modal-content {
+  border-radius: 0;
+}
+
+.modal:hover {
+  cursor: zoom-out;
+}
+
 .left-align {
   text-align: left;
   @media only screen and (max-width: 1100px) {
