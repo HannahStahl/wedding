@@ -6,7 +6,7 @@ import Masonry from 'react-responsive-masonry';
 const content = [
   {
     header: <>It began in snowy upstate New York... (sort of)</>,
-    text: <>Chuck and Hannah like to think fate first tried to get them together at Cornell when they both joined the class of 2016. The first night of freshman year, they unknowingly went to the same memorable party, where the porch collapsed under the weight of hundreds of college students. Then throughout the years, they both found themselves at Reis Tennis Center, where Hannah practiced with the club team and Chuck taught lessons to local kids. During junior year, they even ended up at the same Slope Day party, where Hannah witnessed Chuck performing a very mean but impressively written rap about a mutual friend of theirs. Despite crossing paths about a hundred times, however, they never actually met at Cornell.</>,
+    text: <>Chuck and Hannah like to think fate first tried to get them together at Cornell when they both joined the class of 2016. The first night of freshman year, they unknowingly went to the same memorable party, where the porch collapsed under the weight of hundreds of college students. Then throughout the years, they both found themselves at Reis Tennis Center, where Hannah practiced with the club team and Chuck taught lessons to local kids. During junior year, they even ended up at the same Slope Day party, where Hannah witnessed Chuck performing a very mean but impressively written rap about a mutual friend of theirs. Despite crossing paths about a hundred times, however, they never actually met at Cornell...</>,
     images: [
       { filename: 'snowy-ithaca.jpg', alt: 'Snowy Ithaca' },
       { filename: 'winter-jacket.jpg', alt: 'Winter Coat' },
@@ -20,7 +20,7 @@ const content = [
   },
   {
     header: <>It <i>really</i> began in Austin, Texas... (eventually)</>,
-    text: <>Fate didn't give up after just the ol' college try. Instead, it found a way to ensure both Chuck and Hannah ended up in Austin after graduating. Chuck moved for the UT Austin PhD program, and Hannah moved for a job. They <i>finally</i> met (hooray!) at a Cornell alumni event, volunteering at the food bank. They exchanged phone numbers and made plans to play tennis together. Hannah was dating someone else at the time, and by the time that relationship ended, Chuck had started dating someone. So they spent two long years growing their friendship until they were finally both single. When that happened, Hannah wasted no time asking Chuck out on a two-stepping date (shamelessly confirming over text "this is a date" to make certain he understood). That turned into the most amazing relationship filled with laughter, tacos, COVID, water parks, bike rides, a snowpocalypse, and everything in between.</>,
+    text: <>Fate didn't give up after the ol' college try. Instead, it found a way to ensure both Chuck and Hannah ended up in Austin after graduating. Chuck moved for the UT Austin PhD program, and Hannah moved for a job. They <i>finally</i> met (hooray!) at an alumni event, volunteering at the food bank. They exchanged phone numbers and made plans to play tennis together. Hannah was dating someone else at the time, and by the time that relationship ended, Chuck had started dating someone. So they spent two long years growing their friendship until they were finally both single. When that happened, Hannah wasted no time asking Chuck out on a two-stepping date (shamelessly confirming over text "I am thinking of this as a date" to make certain he understood). That turned into the most amazing relationship filled with laughter, tacos, COVID, water parks, bike rides, a snowpocalypse, and everything in between.</>,
     images: [
       { filename: 'food-bank.jpg', alt: 'Food Bank' },
       { filename: 'rodeo.jpg', alt: 'Rodeo' },
@@ -34,7 +34,7 @@ const content = [
   },
   {
     header: <>It <b>formally</b> begins in Washington, D.C.</>,
-    text: <>After defending his thesis and carrying out an elaborate scavenger hunt proposal, Chuck accepted a job in the nation's capital, and the couple packed up and moved across the country to what will hopefully be their forever home. The two are enjoying being closer to family, living in a bustling walkable neighborhood, and learning how to make new friends as adults. They can't wait to celebrate their wedding with everyone near and dear to them, in beautiful northern Virginia. See y'all in October!</>,
+    text: <>After defending his thesis and crafting an elaborate scavenger hunt proposal, Chuck accepted a job in the nation's capital, and the couple packed up and moved across the country to what will hopefully be their forever home. The two are enjoying being closer to family, living in a bustling walkable neighborhood, and learning how to make new friends as adults. They can't wait to celebrate their wedding in beautiful northern Virginia with everyone near and dear to them. See y'all in October!</>,
     images: [
       { filename: 'suitcases.jpg', alt: 'Suitcases' },
       { filename: 'bike-party.jpg', alt: 'DC Bike Party' },
