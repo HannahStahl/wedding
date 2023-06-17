@@ -6,14 +6,14 @@ body {
   letter-spacing: 1px;
   background-color: #fff8fe;
   color: #182318;
-  @media only screen and (max-width: 600px) {
+  @media all and (max-width: 600px) {
     font-size: 16px;
   }
 }
 
 .app-container {
   margin: 1rem;
-  @media only screen and (max-width: 600px) {
+  @media all and (max-width: 600px) {
     margin: 0.5rem;
   }
 }
@@ -40,7 +40,7 @@ h1 {
   font-weight: normal;
   margin-top: 0;
   margin-bottom: 0.5rem;
-  @media only screen and (max-width: 600px) {
+  @media all and (max-width: 600px) {
     font-size: 22px;
   }
 }
@@ -62,7 +62,7 @@ nav a {
   text-decoration: none;
   margin: 0 1rem;
   font-size: 24px;
-  @media only screen and (max-width: 600px) {
+  @media all and (max-width: 600px) {
     font-size: 22px;
   }
 }
@@ -93,10 +93,10 @@ nav a:hover {
 
 .navbar-expand-lg {
   margin-bottom: 2rem;
-  @media only screen and (max-width: 991px) {
+  @media all and (max-width: 991px) {
     margin-top: -4.5rem;
   }
-  @media only screen and (max-width: 600px) {
+  @media all and (max-width: 600px) {
     margin-top: -3.75rem;
   }
 }
@@ -109,7 +109,7 @@ nav a:hover {
 
 nav a.active, .home-header {
   border-bottom: solid 2px #d3c5a0;
-  @media only screen and (max-width: 991px) {
+  @media all and (max-width: 991px) {
     border-bottom: unset;
   }
 }
@@ -122,7 +122,7 @@ nav a.active, .home-header {
   font-family: 'La Belle Aurore', cursive;
   font-size: 48px;
   margin-top: 2rem;
-  @media only screen and (max-width: 600px) {
+  @media all and (max-width: 600px) {
     font-size: 32px;
   }
 }
@@ -136,7 +136,7 @@ nav a.active, .home-header {
   margin-bottom: 2rem;
   width: 75%;
   max-width: 750px;
-  @media only screen and (max-width: 600px) {
+  @media all and (max-width: 600px) {
     width: 95%;
     max-width: unset;
   }
@@ -155,7 +155,7 @@ nav a.active, .home-header {
 }
 
 .arrow {
-  @media only screen and (max-width: 600px) {
+  @media all and (max-width: 600px) {
     display: none;
   }
 }
@@ -171,7 +171,7 @@ nav a.active, .home-header {
   justify-content: space-between;
   flex-wrap: wrap-reverse;
   margin: 4rem auto;
-  @media only screen and (max-width: 1100px) {
+  @media all and (max-width: 1100px) {
     max-width: 520px;
     margin: 2rem auto;
   }
@@ -184,7 +184,7 @@ nav a.active, .home-header {
 .story .alternating-row {
   margin: 2rem auto;
   flex-wrap: wrap;
-  @media only screen and (max-width: 600px) {
+  @media all and (max-width: 600px) {
     margin-bottom: 3rem;
   }
 }
@@ -195,7 +195,7 @@ nav a.active, .home-header {
 
 .alternating-row div {
   width: 48%;
-  @media only screen and (max-width: 1100px) {
+  @media all and (max-width: 1100px) {
     width: 100%;
   }
 }
@@ -228,14 +228,14 @@ nav a.active, .home-header {
 
 .left-align {
   text-align: left;
-  @media only screen and (max-width: 1100px) {
+  @media all and (max-width: 1100px) {
     text-align: unset;
   }
 }
 
 .right-align {
   text-align: right;
-  @media only screen and (max-width: 1100px) {
+  @media all and (max-width: 1100px) {
     text-align: unset;
   }
 }
