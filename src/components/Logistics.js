@@ -10,7 +10,7 @@ const Logistics = () => (
             <h1 className="logistics-header">Ceremony and Reception</h1>
             <p>
               <b>Date and Time:</b><br />
-              October 7, 2023, 5:00pm - 11:00pm<br />
+              Saturday, October 7, 2023, 5:00pm - 11:00pm<br />
               <i>Please arrive early and enjoy the beautiful park!</i>
             </p>
             <p>
@@ -37,7 +37,7 @@ const Logistics = () => (
             <h1 className="logistics-header">Brunch</h1>
             <p>
               <b>Date and Time:</b><br />
-              October 8, 2023, 9:30am - 12:00pm<br />
+              Sunday, October 8, 2023, 9:30am - 12:00pm<br />
             </p>
             <p>
               <b>Location:</b><br />
