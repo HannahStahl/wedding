@@ -34,7 +34,7 @@ const Logistics = () => (
             <img src="/images/pavilion.jpeg" alt="Picnic Shelter" className="logistics-img" />
           </div>
           <div className="right-align">
-            <h1 className="logistics-header">Goodbye Brunch</h1>
+            <h1 className="logistics-header">Brunch</h1>
             <p>
               <b>Date and Time:</b><br />
               October 8, 2023, 9:30am - 12:00pm<br />
