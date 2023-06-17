@@ -2,8 +2,9 @@
   position: absolute;
   background-color: #d3c5a0;
   height: 2px;
-  @media all and (max-width: 1100px) {
-    display: none;
+  display: none;
+  @media all and (min-width: 1100px) {
+    display: unset;
   }
 }
 
