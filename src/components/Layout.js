@@ -4,7 +4,7 @@ import NavBar from './NavBar';
 
 const Layout = () => (
   <>
-    <h1 className="header">
+    <h1 className="chuck-and-hannah-header">
       <NavLink to="/">Chuck & Hannah</NavLink>
     </h1>
     <NavBar />

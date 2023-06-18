@@ -118,16 +118,19 @@ nav a.active, .home-header {
   margin-bottom: 1rem;
 }
 
-.header {
+.chuck-and-hannah-header {
   font-family: 'La Belle Aurore', cursive;
-  font-size: 32px;
+  font-size: 22px;
   margin-top: 2rem;
+  @media all and (min-width: 360px) {
+    font-size: 32px;
+  }
   @media all and (min-width: 600px) {
     font-size: 48px;
   }
 }
 
-.header a {
+.chuck-and-hannah-header a {
   color: #182318;
   text-decoration: none;
 }
