@@ -226,6 +226,17 @@ nav a.active, .home-header {
   cursor: zoom-in;
 }
 
+.carousel {
+  text-align: center;
+  max-width: 100%;
+}
+
+.story-carousel-img {
+  height: 300px;
+  width: 100%;
+  object-fit: contain;
+}
+
 .modal-content {
   border-radius: 0;
 }
