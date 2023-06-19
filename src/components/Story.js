@@ -9,8 +9,8 @@ const content = [
     header: <>It began in snowy upstate New York... (sort of)</>,
     text: <>Chuck and Hannah like to think fate first tried to get them together at Cornell when they both joined the class of 2016. The first night of freshman year, they unknowingly went to the same memorable party, where the porch collapsed under the weight of hundreds of college students. Then throughout the years, they both found themselves at Reis Tennis Center, where Hannah practiced with the club team and Chuck taught lessons to local kids. During junior year, they even ended up at the same Slope Day party, where Hannah witnessed Chuck performing a very mean but impressively written rap about a mutual friend of theirs. Despite crossing paths about a hundred times, however, they never actually met at Cornell...</>,
     images: [
-      { filename: 'snowy-ithaca.jpg', alt: 'Snowy Ithaca', carouselOrder: 1 },
-      { filename: 'winter-jacket.jpg', alt: 'Winter Coat', carouselOrder: 2 },
+      { filename: 'snowy-ithaca.jpg', alt: 'Snowy Ithaca', carouselOrder: 2 },
+      { filename: 'winter-jacket.jpg', alt: 'Winter Coat', carouselOrder: 1 },
       { filename: 'cornell-hockey.jpg', alt: 'Cornell Hockey', carouselOrder: 3 },
       { filename: 'cornell-hockey-2.jpg', alt: 'Cornell Hockey', carouselOrder: 4 },
       { filename: 'club-tennis.jpg', alt: 'Cornell Club Tennis', carouselOrder: 5 },
