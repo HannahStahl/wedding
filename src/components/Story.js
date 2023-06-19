@@ -24,29 +24,30 @@ const content = [
     text: <>Fate didn't give up after the ol' college try. Instead, it found a way to ensure both Chuck and Hannah ended up in Austin after graduating. Chuck moved for the UT Austin PhD program, and Hannah moved for a job. They <i>finally</i> met (hooray!) at an alumni event, volunteering at the food bank. They exchanged phone numbers and made plans to play tennis together. Hannah was dating someone else at the time, and by the time that relationship ended, Chuck had started dating someone. So they spent two long years growing their friendship until they were finally both single. When that happened, Hannah wasted no time asking Chuck out on a two-stepping date (shamelessly confirming over text "I am thinking of this as a date" to make certain he understood). That turned into the most amazing relationship filled with laughter, tacos, COVID, water parks, bike rides, a snowpocalypse, and everything in between.</>,
     images: [
       { filename: 'food-bank.jpg', alt: 'Food Bank', carouselOrder: 1 },
-      { filename: 'rodeo.jpg', alt: 'Rodeo', carouselOrder: 2 },
-      { filename: 'speakeasy.jpg', alt: 'Speakeasy', carouselOrder: 3 },
-      { filename: 'bucees.jpg', alt: 'Bucees', carouselOrder: 4 },
-      { filename: 'barton-springs.jpg', alt: 'Barton Springs', carouselOrder: 5 },
+      { filename: 'rodeo.jpg', alt: 'Rodeo', carouselOrder: 3 },
+      { filename: 'speakeasy.jpg', alt: 'Speakeasy', carouselOrder: 4 },
+      { filename: 'bucees.jpg', alt: 'Bucees', carouselOrder: 5 },
+      { filename: 'barton-springs.jpg', alt: 'Barton Springs', carouselOrder: 6 },
       { filename: 'proposal.jpg', alt: 'Proposal', carouselOrder: 8 },
-      { filename: 'schlitterbahn.jpg', alt: 'Schlitterbahn', carouselOrder: 6 },
-      { filename: 'chuck-and-noodle.jpg', alt: 'Chuck and Noodle', carouselOrder: 7 },
+      { filename: 'schlitterbahn.jpg', alt: 'Schlitterbahn', carouselOrder: 7 },
+      { filename: 'chuck-and-noodle.jpg', alt: 'Chuck and Noodle', carouselOrder: 2 },
     ],
   },
   {
     header: <>It <b>formally</b> begins in Washington, D.C.</>,
     text: <>After defending his thesis and crafting an elaborate scavenger hunt proposal, Chuck accepted a job in the nation's capital, and the couple packed up and moved across the country to what will hopefully be their forever home. The two are enjoying being closer to family, living in a bustling walkable neighborhood, and learning how to make new friends as adults. They can't wait to celebrate their wedding in beautiful northern Virginia with everyone near and dear to them. See y'all in October!</>,
     images: [
-      { filename: 'suitcases.jpg', alt: 'Suitcases', carouselOrder: 1 },
-      { filename: 'bike-party.jpg', alt: 'DC Bike Party', carouselOrder: 5 },
-      { filename: 'chucks-parents.jpg', alt: 'Burton Parents', carouselOrder: 3 },
-      { filename: 'monument.jpg', alt: 'Washington Monument', carouselOrder: 6 },
-      { filename: 'trail-of-lights.jpg', alt: 'Trail of Lights', carouselOrder: 2 },
-      { filename: 'cherry-blossoms.jpg', alt: 'Cherry Blossoms', carouselOrder: 4 },
+      { filename: 'suitcases.jpg', alt: 'Suitcases', carouselOrder: 2 },
+      { filename: 'bike-party.jpg', alt: 'DC Bike Party', carouselOrder: 6 },
+      { filename: 'chucks-parents.jpg', alt: 'Burton Parents', carouselOrder: 4 },
+      { filename: 'monument.jpg', alt: 'Washington Monument', carouselOrder: 1 },
+      { filename: 'trail-of-lights.jpg', alt: 'Trail of Lights', carouselOrder: 3 },
+      { filename: 'cherry-blossoms.jpg', alt: 'Cherry Blossoms', carouselOrder: 5 },
     ],
   }
 ];
 
+// TODO make sure this displays on iPad landscape (>1100px but iOS)
 const ImageCollage = ({ images }) => {
   const [selectedIndex, setSelectedIndex] = useState(-1);
   return (
