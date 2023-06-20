@@ -91,6 +91,12 @@ nav a:hover {
   padding: 0 !important;
 }
 
+@media all and (max-width: 600px) {
+  .nav-link {
+    font-size: 22px;
+  }
+}
+
 .navbar-toggler {
   border: none;
 }
