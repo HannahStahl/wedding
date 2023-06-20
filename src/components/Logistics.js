@@ -6,7 +6,7 @@ const Logistics = () => (
     <div className="alternating-content odd-row">
       <Fade duration={2000}>
         <div className="alternating-row">
-          <div className="left-align">
+          <div className="left-aligned">
             <h1 className="logistics-header">Ceremony and Reception</h1>
             <p>
               <b>Date and Time:</b><br />
@@ -34,7 +34,7 @@ const Logistics = () => (
           <div>
             <img src="/images/pavilion.jpeg" alt="Picnic Shelter" className="logistics-img" />
           </div>
-          <div className="right-align">
+          <div className="right-aligned">
             <h1 className="logistics-header">Brunch</h1>
             <p>
               <b>Date and Time:</b><br />
@@ -55,7 +55,7 @@ const Logistics = () => (
       </Fade>
       <Fade duration={2000}>
         <div className="alternating-row odd-row">
-          <div className="left-align">
+          <div className="left-aligned">
             <h1 className="logistics-header">Nearby Airports</h1>
             <p>
               <b>Dulles International Airport (IAD):</b><br />
@@ -76,7 +76,7 @@ const Logistics = () => (
           <div>
             <img src="/images/hampton.jpeg" alt="Hampton Inn" className="logistics-img" />
           </div>
-          <div className="right-align">
+          <div className="right-aligned">
             <h1 className="logistics-header">Accommodations</h1>
             <p>
               <b>Hampton Inn Dulles/Cascades:</b><br />

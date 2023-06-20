@@ -259,13 +259,13 @@ nav a.active, .home-header {
   cursor: zoom-out;
 }
 
-.left-align {
+.left-aligned {
   @media all and (min-width: 1100px) {
     text-align: left;
   }
 }
 
-.right-align {
+.right-aligned {
   @media all and (min-width: 1100px) {
     text-align: right;
   }

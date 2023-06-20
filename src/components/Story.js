@@ -95,7 +95,7 @@ const Story = () => (
                     <ImageCarousel images={images} />
                   </>
                 )}
-                <div className={imagesOnRight ? 'left-align' : 'right-align'}>
+                <div className={imagesOnRight ? 'left-aligned' : 'right-aligned'}>
                   <h1>{header}</h1>
                   <p>{text}</p>
                 </div>
