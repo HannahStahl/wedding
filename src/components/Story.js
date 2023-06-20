@@ -47,11 +47,10 @@ const content = [
   }
 ];
 
-// TODO make sure this displays on iPad landscape (>1100px but iOS)
 const ImageCollage = ({ images }) => {
   const [selectedIndex, setSelectedIndex] = useState(-1);
   return (
-    <div>
+    <div className="image-collage">
       <Masonry>
         {images.map(({ filename, alt }, i) => (
           <img key={filename} src={`/images/${filename}`} alt={alt} className="story-img thumbnail" onClick={() => setSelectedIndex(i)} />
@@ -65,49 +64,54 @@ const ImageCollage = ({ images }) => {
 };
 
 const ImageCarousel = ({ images }) => (
-  <Carousel interval={null} indicators={false} variant="dark">
-    {[...images].sort((a, b) => a.carouselOrder - b.carouselOrder).map(({ filename, alt }) => (
-      <Carousel.Item key={filename}>
-        <img src={`/images/${filename}`} alt={alt} className="story-carousel-img" />
-      </Carousel.Item>
-    ))}
-  </Carousel>
+  <div className="image-carousel">
+    <Carousel interval={null} indicators={false} variant="dark">
+      {[...images].sort((a, b) => a.carouselOrder - b.carouselOrder).map(({ filename, alt }) => (
+        <Carousel.Item key={filename}>
+          <img src={`/images/${filename}`} alt={alt} className="story-carousel-img" />
+        </Carousel.Item>
+      ))}
+    </Carousel>
+  </div>
 );
 
-const Story = () => {
-  const showThumbnailCollage = window.screen.width >= 1100;
-  return (
-    <div className="story page">
-      <div className="alternating-content">
-        {content.map(({ header, text, images }, i) => {
-          const imagesOnRight = i % 2 === 0;
-          return (
-            <div key={i}>
-              <span className="arrow">
-                <Fade duration={2000}>
-                  <img src={`/images/arrow-${i + 1}.png`} alt="Arrow" />
-                </Fade>
-              </span>
+const Story = () => (
+  <div className="story page">
+    <div className="alternating-content">
+      {content.map(({ header, text, images }, i) => {
+        const imagesOnRight = i % 2 === 0;
+        return (
+          <div key={i}>
+            <span className="arrow">
               <Fade duration={2000}>
-                <div className={`alternating-row ${imagesOnRight ? 'odd-row' : 'even-row'}`}>
-                  {!imagesOnRight && (
-                    showThumbnailCollage ? <ImageCollage images={images} /> : <ImageCarousel images={images} />
-                  )}
-                  <div className={imagesOnRight ? 'left-align' : 'right-align'}>
-                    <h1>{header}</h1>
-                    <p>{text}</p>
-                  </div>
-                  {imagesOnRight && (
-                    showThumbnailCollage ? <ImageCollage images={images} /> : <ImageCarousel images={images} />
-                  )}
-                </div>
+                <img src={`/images/arrow-${i + 1}.png`} alt="Arrow" />
               </Fade>
-            </div>
-          );
-        })}
-      </div>
+            </span>
+            <Fade duration={2000}>
+              <div className={`alternating-row ${imagesOnRight ? 'odd-row' : 'even-row'}`}>
+                {!imagesOnRight && (
+                  <>
+                    <ImageCollage images={images} />
+                    <ImageCarousel images={images} />
+                  </>
+                )}
+                <div className={imagesOnRight ? 'left-align' : 'right-align'}>
+                  <h1>{header}</h1>
+                  <p>{text}</p>
+                </div>
+                {imagesOnRight && (
+                  <>
+                    <ImageCollage images={images} />
+                    <ImageCarousel images={images} />
+                  </>
+                )}
+              </div>
+            </Fade>
+          </div>
+        );
+      })}
     </div>
-  );
-};
+  </div>
+);
 
 export default Story;
