@@ -6,14 +6,20 @@ body {
   letter-spacing: 1px;
   background-color: #fff8fe;
   color: #182318;
-  @media all and (min-width: 600px) {
+}
+
+@media all and (min-width: 600px) {
+  body {
     font-size: 20px;
   }
 }
 
 .app-container {
   margin: 0.5rem;
-  @media all and (min-width: 600px) {
+}
+
+@media all and (min-width: 600px) {
+  .app-container {
     margin: 1rem;
   }
 }
@@ -40,7 +46,10 @@ h1 {
   font-weight: normal;
   margin-top: 0;
   margin-bottom: 0.5rem;
-  @media all and (min-width: 600px) {
+}
+
+@media all and (min-width: 600px) {
+  h1 {
     font-size: 28px;
   }
 }
@@ -62,7 +71,10 @@ nav a {
   text-decoration: none;
   margin: 0 1rem;
   font-size: 22px;
-  @media all and (min-width: 600px) {
+}
+
+@media all and (min-width: 600px) {
+  nav a {
     font-size: 24px;
   }
 }
@@ -94,10 +106,16 @@ nav a:hover {
 .navbar-expand-lg {
   margin-bottom: 2rem;
   margin-top: -3.75rem;
-  @media all and (min-width: 600px) {
+}
+
+@media all and (min-width: 600px) {
+  .navbar-expand-lg {
     margin-top: -4.5rem;
   }
-  @media all and (min-width: 992px) {
+}
+
+@media all and (min-width: 992px) {
+  .navbar-expand-lg {
     margin-top: unset;
   }
 }
@@ -108,8 +126,8 @@ nav a:hover {
   margin-bottom: 1.5rem;
 }
 
-nav a.active, .home-header {
-  @media all and (min-width: 992px) {
+@media all and (min-width: 992px) {
+  nav a.active, .home-header {
     border-bottom: solid 2px #d3c5a0;
   }
 }
@@ -122,10 +140,16 @@ nav a.active, .home-header {
   font-family: 'La Belle Aurore', cursive;
   font-size: 22px;
   margin-top: 2rem;
-  @media all and (min-width: 360px) {
+}
+
+@media all and (min-width: 360px) {
+  .chuck-and-hannah-header {
     font-size: 32px;
   }
-  @media all and (min-width: 600px) {
+}
+
+@media all and (min-width: 600px) {
+  .chuck-and-hannah-header {
     font-size: 48px;
   }
 }
@@ -138,7 +162,10 @@ nav a.active, .home-header {
 .home-img {
   margin-bottom: 2rem;
   width: 95%;
-  @media all and (min-width: 600px) {
+}
+
+@media all and (min-width: 600px) {
+  .home-img {
     width: 75%;
     max-width: 750px;
   }
@@ -158,7 +185,10 @@ nav a.active, .home-header {
 
 .arrow {
   display: none;
-  @media all and (min-width: 600px) {
+}
+
+@media all and (min-width: 600px) {
+  .arrow {
     display: unset;
   }
 }
@@ -167,7 +197,10 @@ nav a.active, .home-header {
   width: 90%;
   max-width: 1100px;
   margin: auto;
-  @media all and (min-width: 600px) {
+}
+
+@media all and (min-width: 600px) {
+  .alternating-content {
     width: 75%;
   }
 }
@@ -178,7 +211,10 @@ nav a.active, .home-header {
   flex-wrap: wrap-reverse;
   margin: 2rem auto;
   max-width: 520px;
-  @media all and (min-width: 1100px) {
+}
+
+@media all and (min-width: 1100px) {
+  .alternating-row {
     max-width: unset;
     margin: 4rem auto;
   }
@@ -192,7 +228,10 @@ nav a.active, .home-header {
   margin-bottom: 3rem;
   flex-wrap: wrap;
   text-align: left;
-  @media all and (min-width: 600px) {
+}
+
+@media all and (min-width: 600px) {
+  .story .alternating-row {
     margin: 2rem auto;
   }
 }
@@ -203,7 +242,10 @@ nav a.active, .home-header {
 
 .alternating-row div {
   width: 100%;
-  @media all and (min-width: 1100px) {
+}
+
+@media all and (min-width: 1100px) {
+  .alternating-row div {
     width: 48%;
   }
 }
@@ -228,14 +270,20 @@ nav a.active, .home-header {
 
 .image-collage {
   display: none;
-  @media all and (min-width: 1100px) {
+}
+
+@media all and (min-width: 1100px) {
+  .image-collage {
     display: block;
   }
 }
 
 .image-carousel {
   display: block;
-  @media all and (min-width: 1100px) {
+}
+
+@media all and (min-width: 1100px) {
+  .image-carousel {
     display: none;
   }
 }
@@ -259,14 +307,14 @@ nav a.active, .home-header {
   cursor: zoom-out;
 }
 
-.right-aligned {
-  @media all and (min-width: 1100px) {
+@media all and (min-width: 1100px) {
+  .right-aligned {
     text-align: right;
   }
 }
 
-.left-aligned {
-  @media all and (min-width: 1100px) {
+@media all and (min-width: 1100px) {
+  .left-aligned {
     text-align: left;
   }
 }
