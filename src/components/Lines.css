@@ -3,7 +3,10 @@
   background-color: #d3c5a0;
   height: 2px;
   display: none;
-  @media all and (min-width: 1100px) {
+}
+
+@media all and (min-width: 1100px) {
+  .lines div {
     display: unset;
   }
 }
