@@ -34,7 +34,7 @@ const content = [
     ],
   },
   {
-    header: <>It <b>formally</b> begins in Washington, D.C.</>,
+    header: <>It <i>formally</i> begins in Washington, D.C.</>,
     text: <>After defending his thesis and crafting an elaborate scavenger hunt proposal, Chuck accepted a job in the nation's capital, and the couple packed up and moved across the country to what will hopefully be their forever home. The two are enjoying being closer to family, living in a bustling walkable neighborhood, and learning how to make new friends as adults. They can't wait to celebrate their wedding in beautiful northern Virginia with everyone near and dear to them. See y'all in October!</>,
     images: [
       { filename: 'suitcases.jpg', alt: 'Suitcases', carouselOrder: 2 },
