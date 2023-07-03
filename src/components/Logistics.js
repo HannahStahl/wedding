@@ -80,13 +80,15 @@ const Logistics = () => (
             <h1 className="logistics-header">Accommodations</h1>
             <p>
               <b>Hampton Inn Dulles/Cascades:</b><br />
-              Use <a href="http://l.h4.hilton.com/rts/go2.aspx?h=2620167&tp=i-16D9-Ak-a7L-DcqNmR-24-13qKQm-1c-l8f7Zf3UW8-bw91S&x=www.my-event.hilton.com/wasslhx-hcw-f281d9dc-f5eb-4baf-badc-1965309a4260/" target="_blank" rel="noopener noreferrer">this link</a> for discounted rate of $139-149/night
+              Use <a href="http://l.h4.hilton.com/rts/go2.aspx?h=2620167&tp=i-16D9-Ak-a7L-DcqNmR-24-13qKQm-1c-l8f7Zf3UW8-bw91S&x=www.my-event.hilton.com/wasslhx-hcw-f281d9dc-f5eb-4baf-badc-1965309a4260/" target="_blank" rel="noopener noreferrer">this link</a> for discounted rate.
             </p>
             <p>
               <b>Hyatt Place Sterling/Dulles Airport-North:</b><br />
-              Use <a href="https://www.hyatt.com/en-US/group-booking/IADZN/G-BSWB" target="_blank" rel="noopener noreferrer">this link</a> for discounted rate of $139/night
+              Use <a href="https://www.hyatt.com/en-US/group-booking/IADZN/G-BSWB" target="_blank" rel="noopener noreferrer">this link</a> for discounted rate.
             </p>
-            <i>If you do not see rooms available at the expected rate, please <a href="mailto:hannahstahl14@gmail.com">let us know</a> so we can add more to the block.</i>
+            <p className="hotel-note">
+              If you do not see rooms available at those links, please <a href="mailto:hannahstahl14@gmail.com">let us know</a> so we can add more to the block.
+            </p>
           </div>
         </div>
       </Fade>
