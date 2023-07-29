@@ -10,6 +10,7 @@ const NavBar = () => {
     { page: "/story", label: "Our Story" },
     { page: "/rsvp", label: "RSVP" },
     { page: "/registry", label: "Registry" },
+    { page: "/things-to-do", label: "Things to Do" },
   ];
   return (
     <Navbar collapseOnSelect expand="lg">

@@ -194,6 +194,17 @@ nav a:hover {
   }
 }
 
+.things-to-do {
+  width: 90%;
+  max-width: 680px;
+  margin: auto;
+  text-align: left;
+}
+
+.things-to-do div {
+  margin-bottom: 2rem;
+}
+
 .alternating-content {
   width: 90%;
   max-width: 1100px;

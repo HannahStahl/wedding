@@ -6,6 +6,7 @@ import Logistics from './components/Logistics';
 import Story from './components/Story';
 import RSVP from './components/RSVP';
 import Registry from './components/Registry';
+import ThingsToDo from './components/ThingsToDo';
 import NotFound from './components/NotFound';
 import Layout from './components/Layout';
 import Leaves from './components/Leaves';
@@ -26,6 +27,7 @@ const Pages = () => {
         <Route path="story" element={<Story />} />
         <Route path="rsvp" element={<RSVP />} />
         <Route path="registry" element={<Registry />} />
+        <Route path="things-to-do" element={<ThingsToDo />} />
         <Route path="*" element={<NotFound />} />
       </Route>
     </Routes>
