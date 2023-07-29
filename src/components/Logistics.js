@@ -4,7 +4,7 @@ import { Fade } from 'react-awesome-reveal';
 const Logistics = () => (
   <div className="page">
     <div className="alternating-content odd-row">
-      <Fade duration={2000}>
+      <Fade duration={2000} triggerOnce={true}>
         <div className="alternating-row">
           <div className="left-aligned">
             <h1 className="logistics-header">Ceremony and Reception</h1>
@@ -29,7 +29,7 @@ const Logistics = () => (
           </div>
         </div>
       </Fade>
-      <Fade duration={2000}>
+      <Fade duration={2000} triggerOnce={true}>
         <div className="alternating-row even-row">
           <div>
             <img src="/images/pavilion.jpeg" alt="Picnic Shelter" className="logistics-img" />
@@ -53,7 +53,7 @@ const Logistics = () => (
           </div>
         </div>
       </Fade>
-      <Fade duration={2000}>
+      <Fade duration={2000} triggerOnce={true}>
         <div className="alternating-row odd-row">
           <div className="left-aligned">
             <h1 className="logistics-header">Nearby Airports</h1>
@@ -71,7 +71,7 @@ const Logistics = () => (
           </div>
         </div>
       </Fade>
-      <Fade duration={2000}>
+      <Fade duration={2000} triggerOnce={true}>
         <div className="alternating-row even-row">
           <div>
             <img src="/images/hampton.jpeg" alt="Hampton Inn" className="logistics-img" />

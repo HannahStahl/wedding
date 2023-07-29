@@ -5,11 +5,11 @@ import { BsArrowRight } from 'react-icons/bs';
 
 const Home = () => (
   <div className="page">
-    <Fade duration={2000}>
+    <Fade duration={2000} triggerOnce={true}>
       <img src="/images/engagement.jpg" alt="Chuck and Hannah" className="home-img" />
     </Fade>
     <div className="home">
-      <Fade duration={2000}>
+      <Fade duration={2000} triggerOnce={true}>
         <div className="home-header-wrapper">
           <h1 className="home-header">We can't wait to celebrate with you!</h1>
         </div>

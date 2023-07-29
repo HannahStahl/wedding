@@ -83,11 +83,11 @@ const Story = () => (
         return (
           <div key={i}>
             <span className="arrow">
-              <Fade duration={2000}>
+              <Fade duration={2000} triggerOnce={true}>
                 <img src={`/images/arrow-${i + 1}.png`} alt="Arrow" />
               </Fade>
             </span>
-            <Fade duration={2000}>
+            <Fade duration={2000} triggerOnce={true}>
               <div className={`alternating-row ${imagesOnRight ? 'odd-row' : 'even-row'}`}>
                 {!imagesOnRight && (
                   <>
