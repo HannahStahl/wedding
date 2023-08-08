@@ -3,11 +3,43 @@ import { Fade } from 'react-awesome-reveal';
 
 const Logistics = () => (
   <div className="page">
-    <div className="alternating-content odd-row">
+    <div className="alternating-content">
       <Fade duration={2000} triggerOnce={true}>
-        <div className="alternating-row">
+        <div className="alternating-row odd-row">
           <div className="left-aligned">
-            <h1 className="logistics-header">Ceremony and Reception</h1>
+            <h1 className="logistics-header">Country Dancing (Weather Permitting)</h1>
+            <p>
+              <b>Date and Time:</b><br />
+              Friday, October 6, 2023<br />
+              8:00pm - 10:00pm<br />
+              <i>
+                Join us for some two-stepping if you're around!
+                <br />
+                We'll give a lesson from 8:00 - 8:15.
+              </i>
+            </p>
+            <p>
+              <b>Location:</b><br />
+              <a href="https://goo.gl/maps/jnvJR4oKV8LQrsdKA" target="_blank" rel="noopener noreferrer">Algonkian Riverfront Cottages</a><br />
+              46434 Park Chalet Pl, Sterling, VA 20165
+            </p>
+            <p>
+              <b>Attire:</b><br />
+              Casual (cowboy boots if you have 'em!)
+            </p>
+          </div>
+          <div>
+            <img src="/images/dancing.jpg" alt="Texas Two-Step" className="logistics-img" />
+          </div>
+        </div>
+      </Fade>
+      <Fade duration={2000} triggerOnce={true}>
+        <div className="alternating-row even-row">
+          <div>
+            <img src="/images/woodlands.jpeg" alt="The Woodlands at Algonkian" className="logistics-img" />
+          </div>
+          <div className="right-aligned">
+            <h1 className="logistics-header">Wedding Ceremony and Reception</h1>
             <p>
               <b>Date and Time:</b><br />
               Saturday, October 7, 2023<br />
@@ -24,17 +56,11 @@ const Logistics = () => (
               Semi-formal
             </p>
           </div>
-          <div>
-            <img src="/images/woodlands.jpeg" alt="The Woodlands at Algonkian" className="logistics-img" />
-          </div>
         </div>
       </Fade>
       <Fade duration={2000} triggerOnce={true}>
-        <div className="alternating-row even-row">
-          <div>
-            <img src="/images/pavilion.jpeg" alt="Picnic Shelter" className="logistics-img" />
-          </div>
-          <div className="right-aligned">
+        <div className="alternating-row odd-row">
+          <div className="left-aligned">
             <h1 className="logistics-header">Brunch</h1>
             <p>
               <b>Date and Time:</b><br />
@@ -44,18 +70,24 @@ const Logistics = () => (
             <p>
               <b>Location:</b><br />
               <a href="https://goo.gl/maps/vVnfE1Z2h1Yz52kW6" target="_blank" rel="noopener noreferrer">Algonkian Picnic Shelter #1</a><br />
-              47001 Fairway Dr, Sterling, VA 20165
+              Fairway Dr, Sterling, VA 20165
             </p>
             <p>
               <b>Attire:</b><br />
               Casual
             </p>
           </div>
+          <div>
+            <img src="/images/pavilion.jpeg" alt="Picnic Shelter" className="logistics-img" />
+          </div>
         </div>
       </Fade>
       <Fade duration={2000} triggerOnce={true}>
-        <div className="alternating-row odd-row">
-          <div className="left-aligned">
+        <div className="alternating-row even-row">
+          <div>
+            <img src="/images/dulles.jpeg" alt="Dulles Airport" className="logistics-img" />
+          </div>
+          <div className="right-aligned">
             <h1 className="logistics-header">Nearby Airports</h1>
             <p>
               <b>Dulles International Airport (IAD):</b><br />
@@ -66,17 +98,11 @@ const Logistics = () => (
               ~45 minutes from wedding venue
             </p>
           </div>
-          <div>
-            <img src="/images/dulles.jpeg" alt="Dulles Airport" className="logistics-img" />
-          </div>
         </div>
       </Fade>
       <Fade duration={2000} triggerOnce={true}>
-        <div className="alternating-row even-row">
-          <div>
-            <img src="/images/hampton.jpeg" alt="Hampton Inn" className="logistics-img" />
-          </div>
-          <div className="right-aligned">
+        <div className="alternating-row odd-row">
+          <div className="left-aligned">
             <h1 className="logistics-header">Accommodations</h1>
             <p>
               <b>Hampton Inn Dulles/Cascades:</b><br />
@@ -89,6 +115,9 @@ const Logistics = () => (
             <p className="hotel-note">
               If you do not see rooms available at those links, please <a href="mailto:hannahstahl14@gmail.com">let us know</a> so we can add more to the block.
             </p>
+          </div>
+          <div>
+            <img src="/images/hampton.jpeg" alt="Hampton Inn" className="logistics-img" />
           </div>
         </div>
       </Fade>
