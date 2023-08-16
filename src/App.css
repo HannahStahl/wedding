@@ -330,13 +330,3 @@ nav a:hover {
     text-align: left;
   }
 }
-
-.hotel-note {
-  font-style: italic;
-}
-
-@media all and (min-width: 1100px) {
-  .hotel-note {
-    max-width: 450px;
-  }
-}

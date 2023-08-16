@@ -106,14 +106,12 @@ const Logistics = () => (
             <h1 className="logistics-header">Accommodations</h1>
             <p>
               <b>Hampton Inn Dulles/Cascades:</b><br />
-              Use <a href="http://l.h4.hilton.com/rts/go2.aspx?h=2620167&tp=i-16D9-Ak-a7L-DcqNmR-24-13qKQm-1c-l8f7Zf3UW8-bw91S&x=www.my-event.hilton.com/wasslhx-hcw-f281d9dc-f5eb-4baf-badc-1965309a4260/" target="_blank" rel="noopener noreferrer">this link</a> for discounted rate.
+              The block is full, but you can still reserve rooms at the regular rate using{' '}
+              <a href="https://www.hilton.com/en/book/reservation/rooms/?ctyhocn=WASSLHX&arrivalDate=2023-10-06&departureDate=2023-10-08&room1NumAdults=2" target="_blank" rel="noopener noreferrer">this link</a>.
             </p>
             <p>
               <b>Hyatt Place Sterling/Dulles Airport-North:</b><br />
-              Use <a href="https://www.hyatt.com/en-US/group-booking/IADZN/G-BSWB" target="_blank" rel="noopener noreferrer">this link</a> for discounted rate.
-            </p>
-            <p className="hotel-note">
-              If you do not see rooms available at those links, please <a href="mailto:hannahstahl14@gmail.com">let us know</a> so we can add more to the block.
+              Use <a href="https://www.hyatt.com/en-US/group-booking/IADZN/G-BSWB" target="_blank" rel="noopener noreferrer">this link</a> for discounted rates. If no rooms show up, please <a href="mailto:hannahstahl14@gmail.com">let us know</a> so we can try adding more to the block.
             </p>
           </div>
           <div>
