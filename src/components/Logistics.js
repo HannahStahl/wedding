@@ -106,8 +106,7 @@ const Logistics = () => (
             <h1 className="logistics-header">Accommodations</h1>
             <p>
               <b>Hampton Inn Dulles/Cascades:</b><br />
-              The block is full, but you can still reserve rooms at the regular rate using{' '}
-              <a href="https://www.hilton.com/en/book/reservation/rooms/?ctyhocn=WASSLHX&arrivalDate=2023-10-06&departureDate=2023-10-08&room1NumAdults=2" target="_blank" rel="noopener noreferrer">this link</a>.
+              The block is full, but you can use <a href="https://www.hilton.com/en/book/reservation/rooms/?ctyhocn=WASSLHX&arrivalDate=2023-10-07&departureDate=2023-10-08&room1NumAdults=2" target="_blank" rel="noopener noreferrer">this link</a> to check for rooms at the regular rate.
             </p>
             <p>
               <b>Hyatt Place Sterling/Dulles Airport-North:</b><br />
